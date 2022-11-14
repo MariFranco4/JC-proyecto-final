@@ -154,3 +154,15 @@ body {
     text-align: center;
     
 }
+.cards-news {
+    display: flex;
+}
+
+.nav-fixed {
+    position: fixed;
+}
+.Cards {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
