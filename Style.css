@@ -178,8 +178,10 @@ body {
     display: block;
     width: 65%;
     height: auto;
+    margin-left: 40px;
 }
 .card {
     margin-left: 20px;
     margin-right: 20px;
+
 }
