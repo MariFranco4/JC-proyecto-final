@@ -1,5 +1,7 @@
+
 body {
     padding: 0%;
+    flex-direction: column;
    
 }
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -37,6 +39,7 @@ body {
     background-color: #e10600;
     width: 680px;
     height: 580px;
+
 }
 .left h2 {
    color: white;
@@ -152,6 +155,7 @@ body {
 }
 .textico H1 {
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
     
 }
 .cards-news {
@@ -165,4 +169,17 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     
+}
+.mensaje {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.card-img-top {
+    display: block;
+    width: 65%;
+    height: auto;
+}
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
 }

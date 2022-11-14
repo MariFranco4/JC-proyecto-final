@@ -17,11 +17,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style2.css">
     <title>Teams</title>
 </head>
 <body>
-    <!--Barra de navegación-->
-    <nav class="navbar navbar-expand-lg bg-light">
+      <!--Barra de navegación-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="formula1.png" width="147px" height="70px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,15 +37,15 @@
                 <a class="nav-link" href="Teams.html">Teams</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Schedule 2023</a>
+                <a class="nav-link" href="Schedule 2022.html">Schedule 2022</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Standings
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Standings
                 </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Driver Standings</a></li>
-                    <li><a class="dropdown-item" href="#">Constructor Standings</a></li>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Driver Standings</a></li>
+                  <li><a class="dropdown-item" href="#">Constructor Standings</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -56,6 +57,9 @@
                   <li><a class="dropdown-item" href="#">Team drivers</a></li>
                 </ul>
               </li>
+            </ul>
+            <form class="d-flex">
+            </form>
           </div>
         </div>
       </nav>
