@@ -189,3 +189,45 @@ body {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
 }
+.card-link {
+    text-align: center;
+    
+}
+
+#modo{
+    width: 30px;
+    font-size: 40px;
+    margin: auto;
+    cursor: pointer;
+    margin-right: 40px;
+    color: white;
+}
+.dark{
+    background: rgb(4, 24, 27);
+}
+
+.dark h1{
+    color: white;
+}
+
+.dark .descripcion{
+    color: rgb(209, 208, 208);
+}
+.dark #modo{
+    color: rgb(230, 176, 76);
+}
+.dark .card__perfil{
+    background: rgb(16, 43, 51);
+}
+.dark p{
+    color: rgb(211, 211, 211);
+}
+.dark h2{
+    color: white;
+}
+.dark .enlace{
+    background: rgb(13, 84, 117);
+}
+.dark .card__perfil:hover{
+    border: solid green 2px;
+}

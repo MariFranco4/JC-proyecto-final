@@ -20,7 +20,7 @@
     <link rel="stylesheet" media="only screen and (max-width: 768px)" href="estilos.css">
     <title>Fórmula 1</title>
 </head>
-<body>
+<body class="dark">
     <!--Barra de navegación-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -48,17 +48,14 @@
                   <li><a class="dropdown-item" href="constructor standings.html">Constructor Standings</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Drivers
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="alldrivers.html">All drivers</a></li>
-                  <li><a class="dropdown-item" href="#">Team drivers</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="drivers.html">Drivers</a>
               </li>
             </ul>
             <form class="d-flex">
+              <div class="modo" id="modo">
+                <i class="fas fa-toggle-on"></i>
+            </div>
             </form>
           </div>
         </div>
@@ -406,5 +403,6 @@
           </div>
         </div>
       </div>
+      <script src="main.js"></script>
 </body>
 </html>
